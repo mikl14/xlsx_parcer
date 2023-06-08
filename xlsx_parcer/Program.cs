@@ -31,9 +31,10 @@ namespace xlsx_parcer
             List<field> fields = new List<field>();
 
 
-            string path = @"21.xml";
-
-            int last_i = 0;
+            string paths = @".\files";
+            string[] files = Directory.GetFiles(paths);
+          
+           
             try
             {
                 Workbook wb = new Workbook();
@@ -42,38 +43,43 @@ namespace xlsx_parcer
                 Worksheet sheet = wb.Worksheets[0];
 
                 int count_cells = 0;
-                for (int j = 0; j < Find_docs(path).Length; j++)
+                foreach (string file in files)
                 {
-                    //Console.Write("*");
-                    for (int i = 1; i < Count_substr(Find_docs(path)[j], "СумУплНал=") + 1; i++)
+                    string path = file;
+
+                    for (int j = 0; j < Find_docs(path).Length; j++)
                     {
-                        Cell cell = sheet.Cells[count_cells, 0];
-                        cell.PutValue(Find_INN(Find_docs(path)[j]));
-
-                        cell = sheet.Cells[count_cells, 2];
-                        cell.PutValue(Find_name(Find_docs(path)[j]));
-
-                       
-                        // Console.WriteLine(Find_name(Find_docs(path)[j]) + " " + Find_INN(Find_docs(path)[j]) + " " + Find_type_nalog(Find_docs(path)[j])[i] + " " + Find_nalog(Find_docs(path)[j])[i]);
-                        if (Find_type_nalog(Find_docs(path)[j])[i] == "УСНО")
+                        //Console.Write("*");
+                        for (int i = 1; i < Count_substr(Find_docs(path)[j], "СумУплНал=") + 1; i++)
                         {
-                            cell = sheet.Cells[count_cells, 3];
-                            cell.PutValue(Find_type_nalog(Find_docs(path)[j])[i]);
-                            cell = sheet.Cells[count_cells, 4];
-                            cell.PutValue(Find_type_nalog(Find_docs(path)[j])[i]);
-                        }
-                        else
-                        {
-                            cell = sheet.Cells[count_cells, 4];
-                            cell.PutValue(Find_type_nalog(Find_docs(path)[j])[i]);
-                        }
-                        cell = sheet.Cells[count_cells, 5];
-                        cell.PutValue(Find_nalog(Find_docs(path)[j])[i]);
+                            Cell cell = sheet.Cells[count_cells, 0];
+                            cell.PutValue(Find_INN(Find_docs(path)[j]));
 
-                        count_cells++;
+                            cell = sheet.Cells[count_cells, 2];
+                            cell.PutValue(Find_name(Find_docs(path)[j]));
+
+
+                            // Console.WriteLine(Find_name(Find_docs(path)[j]) + " " + Find_INN(Find_docs(path)[j]) + " " + Find_type_nalog(Find_docs(path)[j])[i] + " " + Find_nalog(Find_docs(path)[j])[i]);
+                            if (Find_type_nalog(Find_docs(path)[j])[i] == "УСНО")
+                            {
+                                cell = sheet.Cells[count_cells, 3];
+                                cell.PutValue(Find_type_nalog(Find_docs(path)[j])[i]);
+                                cell = sheet.Cells[count_cells, 4];
+                                cell.PutValue(Find_type_nalog(Find_docs(path)[j])[i]);
+                            }
+                            else
+                            {
+                                cell = sheet.Cells[count_cells, 4];
+                                cell.PutValue(Find_type_nalog(Find_docs(path)[j])[i]);
+                            }
+                            cell = sheet.Cells[count_cells, 5];
+                            cell.PutValue(Find_nalog(Find_docs(path)[j])[i]);
+
+                            count_cells++;
+
+                        }
 
                     }
-                    
                 }
                 wb.Save("Excel.xlsx", SaveFormat.Xlsx);
 
@@ -232,23 +238,7 @@ namespace xlsx_parcer
             // Console.WriteLine("Hello World!");
         }
 
-        public static void WriteExcel()
-        {
-            // Создайте экземпляр объекта Workbook, который представляет файл Excel.
-            Workbook wb = new Workbook();
 
-            // Когда вы создаете новую книгу, в книгу добавляется по умолчанию «Лист1».
-            Worksheet sheet = wb.Worksheets[0];
-
-            // Получите доступ к ячейке «A1» на листе.
-            Cell cell = sheet.Cells[0,1];
-
-            // Введите «Привет, мир!» текст в ячейку «А1».
-            cell.PutValue("Hello World!");
-
-            // Сохраните Excel как файл .xlsx.
-            wb.Save("Excel.xlsx", SaveFormat.Xlsx);
-        }
     
 }
 }
