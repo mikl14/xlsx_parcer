@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\proro\\source\\repos\\xlsx_parcer\\xlsx_parcer\\xlsx_parcer.csproj": {}
+    "C:\\Users\\Иван\\Documents\\GitHub\\xlsx_parcer\\xlsx_parcer\\xlsx_parcer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\proro\\source\\repos\\xlsx_parcer\\xlsx_parcer\\xlsx_parcer.csproj": {
+    "C:\\Users\\Иван\\Documents\\GitHub\\xlsx_parcer\\xlsx_parcer\\xlsx_parcer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\proro\\source\\repos\\xlsx_parcer\\xlsx_parcer\\xlsx_parcer.csproj",
+        "projectUniqueName": "C:\\Users\\Иван\\Documents\\GitHub\\xlsx_parcer\\xlsx_parcer\\xlsx_parcer.csproj",
         "projectName": "xlsx_parcer",
-        "projectPath": "C:\\Users\\proro\\source\\repos\\xlsx_parcer\\xlsx_parcer\\xlsx_parcer.csproj",
-        "packagesPath": "C:\\Users\\proro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\proro\\source\\repos\\xlsx_parcer\\xlsx_parcer\\obj\\",
+        "projectPath": "C:\\Users\\Иван\\Documents\\GitHub\\xlsx_parcer\\xlsx_parcer\\xlsx_parcer.csproj",
+        "packagesPath": "C:\\Users\\Иван\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Иван\\Documents\\GitHub\\xlsx_parcer\\xlsx_parcer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\proro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Иван\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -66,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
