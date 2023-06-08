@@ -48,3 +48,28 @@ C:\Users\Иван\Documents\GitHub\xlsx_parcer\xlsx_parcer\obj\Debug\net5.0\xlsx
 C:\Users\Иван\Documents\GitHub\xlsx_parcer\xlsx_parcer\obj\Debug\net5.0\ref\xlsx_parcer.dll
 C:\Users\Иван\Documents\GitHub\xlsx_parcer\xlsx_parcer\obj\Debug\net5.0\xlsx_parcer.pdb
 C:\Users\Иван\Documents\GitHub\xlsx_parcer\xlsx_parcer\obj\Debug\net5.0\xlsx_parcer.genruntimeconfig.cache
+C:\Users\proro\OneDrive\Рабочий стол\xlsx_parcer\xlsx_parcer\bin\Debug\net5.0\xlsx_parcer.exe
+C:\Users\proro\OneDrive\Рабочий стол\xlsx_parcer\xlsx_parcer\bin\Debug\net5.0\xlsx_parcer.deps.json
+C:\Users\proro\OneDrive\Рабочий стол\xlsx_parcer\xlsx_parcer\bin\Debug\net5.0\xlsx_parcer.runtimeconfig.json
+C:\Users\proro\OneDrive\Рабочий стол\xlsx_parcer\xlsx_parcer\bin\Debug\net5.0\xlsx_parcer.runtimeconfig.dev.json
+C:\Users\proro\OneDrive\Рабочий стол\xlsx_parcer\xlsx_parcer\bin\Debug\net5.0\xlsx_parcer.dll
+C:\Users\proro\OneDrive\Рабочий стол\xlsx_parcer\xlsx_parcer\bin\Debug\net5.0\ref\xlsx_parcer.dll
+C:\Users\proro\OneDrive\Рабочий стол\xlsx_parcer\xlsx_parcer\bin\Debug\net5.0\xlsx_parcer.pdb
+C:\Users\proro\OneDrive\Рабочий стол\xlsx_parcer\xlsx_parcer\bin\Debug\net5.0\Aspose.Cells.dll
+C:\Users\proro\OneDrive\Рабочий стол\xlsx_parcer\xlsx_parcer\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\proro\OneDrive\Рабочий стол\xlsx_parcer\xlsx_parcer\bin\Debug\net5.0\System.Drawing.Common.dll
+C:\Users\proro\OneDrive\Рабочий стол\xlsx_parcer\xlsx_parcer\bin\Debug\net5.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\proro\OneDrive\Рабочий стол\xlsx_parcer\xlsx_parcer\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\proro\OneDrive\Рабочий стол\xlsx_parcer\xlsx_parcer\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\proro\OneDrive\Рабочий стол\xlsx_parcer\xlsx_parcer\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\proro\OneDrive\Рабочий стол\xlsx_parcer\xlsx_parcer\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\proro\OneDrive\Рабочий стол\xlsx_parcer\xlsx_parcer\obj\Debug\net5.0\xlsx_parcer.csproj.AssemblyReference.cache
+C:\Users\proro\OneDrive\Рабочий стол\xlsx_parcer\xlsx_parcer\obj\Debug\net5.0\xlsx_parcer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\proro\OneDrive\Рабочий стол\xlsx_parcer\xlsx_parcer\obj\Debug\net5.0\xlsx_parcer.AssemblyInfoInputs.cache
+C:\Users\proro\OneDrive\Рабочий стол\xlsx_parcer\xlsx_parcer\obj\Debug\net5.0\xlsx_parcer.AssemblyInfo.cs
+C:\Users\proro\OneDrive\Рабочий стол\xlsx_parcer\xlsx_parcer\obj\Debug\net5.0\xlsx_parcer.csproj.CoreCompileInputs.cache
+C:\Users\proro\OneDrive\Рабочий стол\xlsx_parcer\xlsx_parcer\obj\Debug\net5.0\xlsx_parcer.csproj.CopyComplete
+C:\Users\proro\OneDrive\Рабочий стол\xlsx_parcer\xlsx_parcer\obj\Debug\net5.0\xlsx_parcer.dll
+C:\Users\proro\OneDrive\Рабочий стол\xlsx_parcer\xlsx_parcer\obj\Debug\net5.0\ref\xlsx_parcer.dll
+C:\Users\proro\OneDrive\Рабочий стол\xlsx_parcer\xlsx_parcer\obj\Debug\net5.0\xlsx_parcer.pdb
+C:\Users\proro\OneDrive\Рабочий стол\xlsx_parcer\xlsx_parcer\obj\Debug\net5.0\xlsx_parcer.genruntimeconfig.cache
